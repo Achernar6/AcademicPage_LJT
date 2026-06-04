@@ -1,0 +1,21 @@
+/* Site-specific adjustments */
+
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    padding-right: 2rem;
+  }
+
+  .page {
+    padding-left: 2.25rem;
+  }
+}
+
+.page__content table {
+  margin-bottom: 1.5rem;
+}
+
+.page__content table th:first-child,
+.page__content table td:first-child {
+  width: 34%;
+  font-weight: 600;
+}

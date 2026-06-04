@@ -12,5 +12,3 @@ order: 5
 For customer complaint analysis, I designed a structured extraction template that decomposed each complaint into emotional expression, candidate cause, evidence span, and standardized output fields. This made the results more auditable and more suitable for downstream business analysis than free-form model responses.
 
 I also contributed to technical documentation and proposal writing for internal innovation projects and patent submissions, especially where emerging LLM methods needed to be translated into bank-feasible system designs.
-
-**Research relevance.** This work shaped my interest in auditable LLM systems, schema grounding, and the connection between language-based reasoning and institutional data workflows.

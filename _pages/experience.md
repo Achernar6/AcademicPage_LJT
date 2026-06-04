@@ -8,14 +8,15 @@ author_profile: true
 Industrial and Commercial Bank of China
 ======
 
-**Data Analyst, Headquarters / Business R&D Center**  
-2024-Present
+**Data Analyst, Headquarters / Business R&D Center (BRDC, Beijing)**  
+July 2024-October 2025
 
-At ICBC, I work on large-scale financial data systems and banking AI projects. My experience combines production-facing data operations with exploratory work on LLM-enabled financial systems.
+At ICBC Headquarters / Business R&D Center (Beijing), I worked on large-scale financial data systems and banking AI projects. My experience combined production-facing data operations with exploratory work on LLM-enabled financial systems.
 
 **Enterprise-scale data operations and analytics**
 
-- Owned daily data pipelines and business-facing analytics for approximately 120 million Gen-Z customers, working with desensitized individual-level and aggregated data.
+- Provided daily data support for the Head Office Personal Finance Department, including mobile banking analytics, internal dashboard indicators, and personalized support for marketing campaigns.
+- Owned recurring data pipelines and business-facing analytics for approximately 120 million Gen-Z customers, working with desensitized individual-level and aggregated data.
 - Maintained recurring reports, defined dashboard metrics, monitored data quality, and handled urgent pipeline incidents under real operational accountability.
 - Translated ambiguous business requests into formal metric definitions, SQL workflows, aggregation rules, eligibility windows, segmentation logic, and reproducible analytical outputs.
 - Coordinated with developers and business departments to add new indicators to automated dashboard systems used by headquarters departments and branches.
@@ -31,7 +32,7 @@ KPMG LightHouse
 ======
 
 **Knowledge Graph Development Assistant**  
-2022-2023
+January 2023-June 2023
 
 At KPMG LightHouse, I contributed to a financial regulatory compliance knowledge graph for a commercial banking client. The project transformed fragmented regulatory documents, internal rules, and compliance clauses into a structured knowledge base for search, training, and rule relationship analysis.
 

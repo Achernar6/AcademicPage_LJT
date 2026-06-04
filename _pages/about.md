@@ -7,21 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-I am Achernar. My work sits at the intersection of large-scale financial data infrastructure, graph-structured risk and recommendation problems, and emerging LLM systems. I am currently shaping these industrial experiences into a research direction around dynamic, structured, and language-mediated real-world systems.
+I am Achernar. I am interested in structure-aware AI for complex systems: not only larger models, larger datasets, or smoother workflows, but ways of making relations, constraints, contexts, and failure modes visible enough to reason about.
 
-At the Industrial and Commercial Bank of China (ICBC), I have worked close to the operational core of financial data systems: maintaining daily analytics pipelines, defining reproducible business metrics, supporting dashboard automation, and handling urgent data issues under governance and production constraints. In parallel, I have contributed to innovation-oriented banking AI projects involving schema-aware SQL generation, retrieval-augmented data access, structured complaint analysis, privacy-preserving synthetic data, and LLM-powered agent-based financial simulation.
+My path has moved through software engineering, finance, and industrial AI projects. At ICBC and KPMG LightHouse, I worked on regulatory knowledge graphs, AML analysis, recommendation, synthetic data collaboration, and LLM workflows. These projects taught me that complex systems are rarely improved by prediction and automation alone. They need representations that can preserve relations, conflicts, dependencies, and institutional constraints.
 
-Before ICBC, I worked at KPMG LightHouse on a financial regulatory compliance knowledge graph for a commercial banking client. That experience introduced me to ontology design, Chinese financial-legal NLP, document labeling, Neo4j graph construction, and the practical difficulty of translating institutional rules into structured, searchable representations.
+At the same time, I do not treat structure as magic. A graph, schema, ontology, or prompt template can clarify a system, but it can also impose the wrong locality, hide long-range dependencies, or mix signals that should have stayed separate. This tension is what draws me toward more diagnostic and mechanistic research: how structure shapes learning, what assumptions it introduces, and how external signals can be integrated without turning the model into a black box with nicer vocabulary.
 
-These experiences have gradually moved my interest from maintaining realistic data infrastructure toward research questions about how AI systems can represent relationships, adapt to temporal change, integrate language-based reasoning, and remain interpretable under real institutional constraints.
+I also care about the social shape of technical progress. Many information-centered industries are eager to keep up with AI, but real changes rarely come from benchmark chasing or fashionable words alone. I am more interested in systems that grow out of real needs, concrete constraints, and diverse use cases, including niche ones that force us to think carefully instead of scaling blindly.
 
 Research Interests
 ======
 
 This section is intentionally left concise for now and will be expanded as my research direction becomes more specific.
 
-- Dynamic graph learning
-- Graph-enhanced foundation models
-- LLM-graph hybrid systems
-- Financial AI, risk modeling, and socio-economic behavior
-- Privacy-aware and governance-aware AI systems
+- Structure-aware AI for complex systems
+- Diagnostics and interpretability for machine learning systems
+- Language-mediated decision-making and human-facing AI workflows
+- Graphs, spectra, and other structured representations
+- AI systems under institutional, privacy, and social constraints

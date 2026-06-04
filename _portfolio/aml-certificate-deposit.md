@@ -12,5 +12,3 @@ order: 3
 Because introducing a dedicated graph database was not practical in the regulated production environment, selected low-hop network features were approximated inside relational databases using recursive SQL logic and time-windowed aggregation. I also supported two-stage modeling that combined unsupervised anomaly detection with supervised classification.
 
 For compliance review, I helped create explainable case summaries, including transaction-chain visualizations, risk-feature descriptions, and threshold-sensitivity reports.
-
-**Research relevance.** This project strengthened my interest in graph-like risk signals, temporal financial behavior, and interpretable models that can operate within institutional infrastructure constraints.
