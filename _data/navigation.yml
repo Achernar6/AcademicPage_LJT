@@ -14,11 +14,8 @@ main:
   - title: "Abilities"
     url: /abilities/
 
-  - title: "Industrial"
+  - title: "Industrial Projects"
     url: /industrial-projects/
 
-  - title: "Personal"
+  - title: "Personal Projects"
     url: /personal-projects/
-
-  - title: "Contact"
-    url: /contact/

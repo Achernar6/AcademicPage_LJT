@@ -5,10 +5,8 @@ permalink: /personal-projects/
 author_profile: false
 ---
 
-Ongoing projects and attempts to showcase my interest
+Ongoing projects and attempts from personal interests and needs
 ======
-
-These projects are not polished "product stories." They are more like small laboratories: places where I try out tools, build odd bridges between interests, and occasionally run into very real walls.
 
 Saccharomyces-cerevisiae
 ------
@@ -22,7 +20,7 @@ LiFlow
 
 LiFlow is an Android watch application idea on the human/cognition side of Project Atlas. It is intended to support lightweight task-stack maintenance, time tracking for active tasks, and cognition-state detection during work.
 
-The hard part is not the task timer. The hard part is inferring cognitive state from lightweight wearable signals such as heart rate and variability. I bought an OpenBCI electrode cap as a possible ground-truth source, but the signal quality and usability were not yet good enough for my intended workflow. I also tried thinking through EMG-based hand-movement recording as a proxy for workload analysis, but many lightweight and data-rich devices are closed-source, which makes the project temporarily stuck in the swampy but interesting part.
+The hard part is not the task timer. The hard part is inferring cognitive state from lightweight wearable signals such as heart rate and variability. I bought an OpenBCI electrode cap as a possible ground-truth source, but the signal quality and usability were not yet good enough for my intended workflow. I also tried thinking through EMG-based hand-movement recording as a proxy for workload analysis, but many lightweight and data-rich devices are closed-source, so the project is currently paused at the sensing and data-quality layer.
 
 Project Atlas
 ------

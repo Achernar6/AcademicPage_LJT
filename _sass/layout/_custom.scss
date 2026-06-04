@@ -49,12 +49,25 @@
   line-height: 1.35;
 }
 
+.about-profile__contact {
+  margin-top: 0.8rem !important;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--global-border-color);
+  word-break: break-word;
+}
+
 @media screen and (max-width: 640px) {
   .about-profile {
     float: none;
     width: auto;
     margin: 0 0 1.25rem;
   }
+}
+
+.page__title {
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--global-border-color);
+  margin-bottom: 1.25rem;
 }
 
 .page__content table {

@@ -22,12 +22,14 @@ Language Ability
 Disciplinary Knowledge
 ======
 
-| Item | Notes |
+| Field | Background |
 | --- | --- |
-| Information science | Undergraduate level; details to be added. |
-| Mathematics | Undergraduate level; details to be added. |
-| Physics | High-school olympiad level; details to be added. |
-| Chemistry | High-school olympiad level; details to be added. |
+| **Information Science and Computer Science** | **Formal coursework:** Data Structures and Algorithms; C Program Design and Algorithm Foundation; Computer Architecture; Operating Systems; Computer Networks; Modern C++ Programming; database-oriented programming and software engineering foundations.<br>**Self-study:** Information Theory; Signals and Systems; Formal Languages and Automata; Database Systems; Distributed Systems; Graph Signal Processing. |
+| **Artificial Intelligence and Data Science** | **Formal coursework:** Artificial Intelligence; Computer Vision; Big Data Analysis and Intelligent Computing.<br>**Self-study:** Machine Learning; Deep Learning; Natural Language Processing; Large Language Models and Foundation Models; Knowledge Representation and Reasoning; Explainable AI; Agent-Based Modeling; Graph Neural Networks. |
+| **Mathematics** | **Formal coursework:** Calculus; Probability and Mathematical Statistics; Linear Algebra and Space Analytic Geometry; Discrete Mathematics; econometrics-related statistical modeling.<br>**Self-study / reading-level exposure:** Differential Equations; Dynamical Systems; Abstract Algebra; Group Theory; Differential Geometry; Representation Theory; Ergodic Theory; Symbolic Dynamics, with a stronger focus on linear algebra, dynamics, and structure-preserving viewpoints. |
+| **Physics** | **Formal coursework:** Introductory quantum computing and quantum networks at the master's level; university physics for CS/engineering students at the undergraduate level, including introductory mechanics, electromagnetism, optics, and related foundations.<br>**Olympiad background:** Mechanics; Thermodynamics; Electromagnetism; Optics; Waves; Modern Physics; introductory Relativity; introductory Quantum Concepts through high-school Physics Olympiad training. |
+| **Chemistry** | **Olympiad background:** General Chemistry; Inorganic Chemistry; Organic Chemistry; Chemical Thermodynamics; Kinetics; Crystal Chemistry / Crystallography; Analytical Chemistry. No university chemistry-major coursework. |
+| **Finance and Econometrics** | **Formal coursework:** Financial Derivatives; Econometrics; Accounting; finance-oriented software engineering curriculum.<br>**Project-driven self-study:** Financial Markets; Behavioral Finance; Financial Risk Modeling; Agent-Based Computational Economics; introductory Market Microstructure. |
 
 Technical Stack and Methods
 ======

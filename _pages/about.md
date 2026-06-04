@@ -13,6 +13,10 @@ redirect_from:
   <p>UESTC Software Engineering</p>
   <p>KPMG LightHouse (intern)</p>
   <p>ICBC Headquarter / BRDC (full time)</p>
+  <p class="about-profile__contact">
+    <a href="mailto:redshiftachernar@gmail.com">redshiftachernar@gmail.com</a><br>
+    <a href="mailto:achernar6@keio.jp">achernar6@keio.jp</a>
+  </p>
 </aside>
 
 This website is a compact overview of my background, projects, and abilities. It is organized into several parts: professional experience in financial data and AI systems, industrial projects from ICBC and KPMG LightHouse, personal projects that show my ongoing technical interests, and an abilities page that summarizes my language ability, disciplinary background, programming experience, and technical stack.
