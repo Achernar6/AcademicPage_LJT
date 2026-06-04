@@ -24,4 +24,6 @@ Research Interests
 
 My current research thinking is guided by a simple tension: complex systems need structure, but structure is never innocent. Graphs, schemas, ontologies, prompts, spectra, and other representations can make relations and constraints visible, yet they can also impose wrong locality, hide long-range dependencies, or mix signals that should remain separate.
 
-I am therefore interested in diagnostic and mechanistic ways of studying AI systems: how structure shapes learning, what assumptions it introduces, when external signals help, and when they merely decorate a model with nicer vocabulary. More broadly, I care about AI systems that grow out of real needs, concrete constraints, and diverse use cases rather than only from scale, benchmarks, or fashionable terminology.
+I am therefore interested in diagnostic and mechanistic ways of studying AI systems: how structure shapes learning, what assumptions it introduces, when external signals help, and when they merely decorate a model with nicer vocabulary. I also have a physics-flavored curiosity about computation itself: using physical signals from computational processes as guidance, heuristics, or diagnostic traces, and using computation in return to understand physical processes. In that sense, I am drawn to the two-way traffic between informatics and physics.
+
+More broadly, I care about AI systems that grow out of real needs, concrete constraints, and diverse use cases rather than only from scale, benchmarks, or fashionable terminology.

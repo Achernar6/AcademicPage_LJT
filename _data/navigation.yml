@@ -14,11 +14,11 @@ main:
   - title: "Experience"
     url: /experience/
 
+  - title: "Abilities"
+    url: /abilities/
+
   - title: "Industrial Projects"
     url: /industrial-projects/
 
   - title: "Personal Projects"
     url: /personal-projects/
-    
-  - title: "Abilities"
-    url: /abilities/
