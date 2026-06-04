@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Li Jietong"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Li Jietong"
 description              : &description "Academic profile of Li Jietong, an applicant with industrial AI experience in financial data systems, knowledge graphs, and LLM applications."
