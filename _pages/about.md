@@ -1,27 +1,27 @@
 ---
 permalink: /
 title: "About"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am Achernar. I am interested in structure-aware AI for complex systems: not only larger models, larger datasets, or smoother workflows, but ways of making relations, constraints, contexts, and failure modes visible enough to reason about.
+<aside class="about-profile">
+  <img src="{{ '/images/profile-placeholder.svg' | relative_url }}" alt="Profile placeholder for Li Jietong">
+  <h2>Li Jietong</h2>
+  <p>UESTC Software Engineering</p>
+  <p>KPMG LightHouse (intern)</p>
+  <p>ICBC Headquarter / BRDC (full time)</p>
+</aside>
 
-My path has moved through software engineering, finance, and industrial AI projects. At ICBC and KPMG LightHouse, I worked on regulatory knowledge graphs, AML analysis, recommendation, synthetic data collaboration, and LLM workflows. These projects taught me that complex systems are rarely improved by prediction and automation alone. They need representations that can preserve relations, conflicts, dependencies, and institutional constraints.
+This website is a compact overview of my background, projects, and abilities. It is organized into several parts: professional experience in financial data and AI systems, industrial projects from ICBC and KPMG LightHouse, personal projects that show my ongoing technical interests, and an abilities page that summarizes my language ability, disciplinary background, programming experience, and technical stack.
 
-At the same time, I do not treat structure as magic. A graph, schema, ontology, or prompt template can clarify a system, but it can also impose the wrong locality, hide long-range dependencies, or mix signals that should have stayed separate. This tension is what draws me toward more diagnostic and mechanistic research: how structure shapes learning, what assumptions it introduces, and how external signals can be integrated without turning the model into a black box with nicer vocabulary.
-
-I also care about the social shape of technical progress. Many information-centered industries are eager to keep up with AI, but real changes rarely come from benchmark chasing or fashionable words alone. I am more interested in systems that grow out of real needs, concrete constraints, and diverse use cases, including niche ones that force us to think carefully instead of scaling blindly.
+The **Experience** page gives a concise view of my work at KPMG LightHouse and ICBC Headquarter / BRDC. The **Industrial Projects** page records selected applied AI projects, including knowledge graphs, AML analysis, synthetic transaction data, recommendation, and LLM workflows. The **Personal Projects** page is less formal: it collects tools, prototypes, and stalled-but-still-interesting attempts around visualization, wearable computing, knowledge work, quantum-inspired algorithms, and domain modeling. The **Abilities** page provides a structured list of skills and methods, with details to be refined over time.
 
 Research Interests
 ======
 
-This section is intentionally left concise for now and will be expanded as my research direction becomes more specific.
+My current research thinking is guided by a simple tension: complex systems need structure, but structure is never innocent. Graphs, schemas, ontologies, prompts, spectra, and other representations can make relations and constraints visible, yet they can also impose wrong locality, hide long-range dependencies, or mix signals that should remain separate.
 
-- Structure-aware AI for complex systems
-- Diagnostics and interpretability for machine learning systems
-- Language-mediated decision-making and human-facing AI workflows
-- Graphs, spectra, and other structured representations
-- AI systems under institutional, privacy, and social constraints
+I am therefore interested in diagnostic and mechanistic ways of studying AI systems: how structure shapes learning, what assumptions it introduces, when external signals help, and when they merely decorate a model with nicer vocabulary. More broadly, I care about AI systems that grow out of real needs, concrete constraints, and diverse use cases rather than only from scale, benchmarks, or fashionable terminology.

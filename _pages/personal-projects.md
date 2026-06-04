@@ -2,7 +2,7 @@
 layout: single
 title: "Personal Projects"
 permalink: /personal-projects/
-author_profile: true
+author_profile: false
 ---
 
 Ongoing projects and attempts to showcase my interest
@@ -15,7 +15,7 @@ Saccharomyces-cerevisiae
 
 [Saccharomyces-cerevisiae](https://github.com/Nyanm/Saccharomyces-cerevisiae) is an open-source score checker for **Sound Voltex Exceed Gear** with `sdvx@asphyxia` data. The repository describes it as an OpenCV and Pillow-based Python application for generating game record images and analytical summaries.
 
-The project can generate best-score lists, recent play records, song-specific records, and summary plots. I contributed mainly to the data-visualization side, especially ideas and design help around `gen6.plot_summary`. The code was committed through another collaborator's account, so I describe my role modestly here; the README gives special thanks to Achernar for helping with the summary-plot design.
+The project can generate best-score lists, recent play records, song-specific records, and summary plots. I contributed mainly to the data-visualization side, especially ideas and design help around `gen6.plot_summary`. The code was committed through another collaborator's account, so I describe my role modestly here; the README gives special thanks to my GitHub handle for helping with the summary-plot design.
 
 LiFlow
 ------

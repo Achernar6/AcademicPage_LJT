@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Achernar"
+title                    : "Li Jietong"
 title_separator          : "-"
-name                     : &name "Achernar"
-description              : &description "Academic profile of Achernar, an applicant with industrial AI experience in financial data systems, knowledge graphs, and LLM applications."
+name                     : &name "Li Jietong"
+description              : &description "Academic profile of Li Jietong, an applicant with industrial AI experience in financial data systems, knowledge graphs, and LLM applications."
 url                      : "https://achernar6.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/AcademicPage_LJT" # the subpath of your site, e.g. "/blog"
@@ -24,9 +24,9 @@ repository               : "Achernar6/AcademicPage_LJT"
 author:
   # Biographic information
   avatar           : "profile-placeholder.svg"
-  name             : "Achernar"
+  name             : "Li Jietong"
   pronouns         : # example: "she/her"  
-  bio              : "Industrial AI experience in financial data systems, knowledge graphs, and LLM applications."
+  bio              : "UESTC Software Engineering<br/>KPMG LightHouse (intern)<br/>ICBC Headquarter / BRDC (full time)"
   location         : "Japan / China"
   employer         :
   uri              : # URL
@@ -243,7 +243,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -254,14 +254,14 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _teaching
   - scope:
       path: ""
       type: teaching
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _publications
@@ -270,7 +270,7 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _portfolio
@@ -279,7 +279,7 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comment: true
   # _talks
@@ -288,7 +288,7 @@ defaults:
       type: talks
     values:
       layout: talk
-      author_profile: true
+      author_profile: false
       share: true
 
 

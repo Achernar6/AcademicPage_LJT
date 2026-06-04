@@ -1,12 +1,59 @@
 /* Site-specific adjustments */
 
 @media screen and (min-width: 1024px) {
-  .sidebar {
-    padding-right: 2rem;
+  .page,
+  .archive {
+    float: none !important;
+    width: 100% !important;
+    max-width: 900px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
-  .page {
-    padding-left: 2.25rem;
+  .list__item {
+    padding-right: 0 !important;
+  }
+}
+
+.about-profile {
+  float: left;
+  width: 210px;
+  margin: 0.25rem 2rem 1.25rem 0;
+  padding: 1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 6px;
+  background: var(--global-bg-color);
+}
+
+.about-profile img {
+  display: block;
+  width: 92px;
+  height: 92px;
+  margin-bottom: 0.8rem;
+  border-radius: 50%;
+  border: 1px solid var(--global-border-color);
+}
+
+.about-profile h2 {
+  margin: 0 0 0.65rem;
+  padding-bottom: 0;
+  border-bottom: 0;
+  font-size: 1.1rem;
+}
+
+.about-profile p {
+  margin: 0 0 0.45rem;
+  font-size: 0.86rem;
+  line-height: 1.35;
+}
+
+@media screen and (max-width: 640px) {
+  .about-profile {
+    float: none;
+    width: auto;
+    margin: 0 0 1.25rem;
   }
 }
 
