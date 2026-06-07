@@ -5,7 +5,7 @@ collection: portfolio
 order: 4
 ---
 
-**Context.** This ICBC project explored synthetic sequential transaction data as a practical alternative to raw-data sharing in a bank-partner marketing collaboration with companies such as Meituan. The goal was to support cross-industry customer analysis while avoiding direct exposure of raw transaction records, personal identifiers, and sensitive behavioral patterns.
+**Context.** This project explored synthetic sequential transaction data as a practical alternative to raw-data sharing in a bank-partner marketing collaboration. The goal was to support cross-industry customer analysis while avoiding direct exposure of raw transaction records, personal identifiers, and sensitive behavioral patterns.
 
 **My contribution.** I engineered user-level, merchant-level, and transaction-sequence features, including partner-related transaction labels, demographic segments, customer activity patterns, and temporal indicators suitable for sequence modeling. I helped prepare sequential datasets and configure the input pipeline for TimeGAN-style generation.
 

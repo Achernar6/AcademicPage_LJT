@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Jietong Li avatar</title>
+  <desc id="desc">A simple geometric avatar with the initials JL.</desc>
+  <rect width="512" height="512" rx="64" fill="#f5f7fb"/>
+  <circle cx="140" cy="128" r="70" fill="#2d6a73"/>
+  <path d="M92 322c36-64 89-96 160-96s124 32 160 96v80H92z" fill="#d7e7e6"/>
+  <path d="M154 126c0-33 23-60 57-60h44v238c0 82-46 132-123 132-31 0-59-7-83-22l24-55c18 10 36 15 56 15 39 0 58-24 58-72V126z" fill="#213547"/>
+  <path d="M304 66h68v304h124v60H304z" fill="#8a3ffc"/>
+</svg>

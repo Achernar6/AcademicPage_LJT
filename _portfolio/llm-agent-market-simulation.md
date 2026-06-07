@@ -5,7 +5,7 @@ collection: portfolio
 order: 1
 ---
 
-**Context.** This exploratory ICBC project studied whether LLM-based agents could complement traditional agent-based models in simulating news-driven retail investor behavior. The goal was not to build a production forecasting system, but to examine how different investor archetypes may react to information shocks.
+**Context.** This exploratory project studied whether LLM-based agents could complement traditional agent-based models in simulating news-driven retail investor behavior. The goal was not to build a production forecasting system, but to examine how different investor archetypes may react to information shocks.
 
 **My contribution.** I designed behavioral-bias prompt templates that mapped financial personality traits, risk preferences, and information-processing styles into standardized agent profiles. I also helped design a structured decision workflow in which each agent produced explicit fields for market context, news interpretation, bias-conditioned assessment, trading decision, confidence level, and short rationale.
 

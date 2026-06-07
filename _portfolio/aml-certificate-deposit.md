@@ -5,7 +5,7 @@ collection: portfolio
 order: 3
 ---
 
-**Context.** This ICBC project supported anti-money laundering risk detection for certificate of deposit transactions. Suspicious behavior was often not visible from isolated abnormal records; risks emerged through repeated counterparties, short-range indirect relationships, abnormal transaction frequencies, and time-windowed behavioral changes.
+**Context.** This project supported anti-money laundering risk detection for certificate of deposit transactions. Suspicious behavior was often not visible from isolated abnormal records; risks emerged through repeated counterparties, short-range indirect relationships, abnormal transaction frequencies, and time-windowed behavioral changes.
 
 **My contribution.** I curated and preprocessed transaction logs, customer profile fields, and account-level behavioral data. I engineered more than 30 temporal and network-inspired features, including transaction-frequency bursts, repeated counterparties, short-range transaction chains, indirect account relationships, and time-windowed behavioral shifts.
 

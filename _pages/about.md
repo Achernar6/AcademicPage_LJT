@@ -8,26 +8,23 @@ redirect_from:
 ---
 
 <aside class="about-profile">
-  <img src="{{ '/images/profile-placeholder.svg' | relative_url }}" alt="Profile placeholder for Li Jietong">
-  <h2>Li Jietong</h2>
-  <p>UESTC Software Engineering</p>
-  <p>KPMG LightHouse (intern)</p>
-  <p>ICBC Headquarter / BRDC (full time)</p>
-  <p class="about-profile__contact">
-    <a href="mailto:redshiftachernar@gmail.com">redshiftachernar@gmail.com</a><br>
-    <a href="mailto:achernar6@keio.jp">achernar6@keio.jp</a>
-  </p>
+  <img src="{{ '/images/avatar-jietong-li.svg' | relative_url }}" alt="Jietong Li">
+  <h2>Jietong Li</h2>
+  <p>Master's student, Keio University Graduate School of Media Design / Q/est Project</p>
+  <p>Previous experience: ICBC Headquarters / Business R&amp;D Center; KPMG LightHouse</p>
 </aside>
 
-This website is a compact overview of my background, projects, and abilities. It is organized into several parts: professional experience in financial data and AI systems, industrial projects from ICBC and KPMG LightHouse, personal projects that show my ongoing technical interests, and an abilities page that summarizes my language ability, disciplinary background, programming experience, and technical stack.
+I am Jietong Li, a master's student at Keio University Graduate School of Media Design / Q/est Project. My work sits between data systems and structure-aware AI: graph learning, knowledge representation, schema-grounded LLM workflows, and computational methods that treat information cost as part of the design problem rather than an afterthought.
 
-The **Experience** page gives a concise view of my work at KPMG LightHouse and ICBC Headquarter / BRDC. The **Industrial Projects** page records selected applied AI projects, including knowledge graphs, AML analysis, synthetic transaction data, recommendation, and LLM workflows. The **Personal Projects** page is less formal: it collects tools, prototypes, and stalled-but-still-interesting attempts around visualization, wearable computing, knowledge work, quantum-inspired algorithms, and domain modeling. The **Abilities** page provides a structured list of skills and methods, with details to be refined over time.
+Before my current master's study, I worked at ICBC Headquarters / Business R&D Center and interned at KPMG LightHouse. Those experiences gave me a practical view of financial data infrastructure, compliance-oriented knowledge graphs, AML analysis, synthetic data, recommendation workflows, and LLM systems under governance and reliability constraints.
+
+The site is organized for readers who want a compact view of that trajectory. **Experience** summarizes institutional roles. **Industrial Projects** describes selected applied AI and data-system projects in a sanitized form. **Personal Projects** collects prototypes and long-running technical interests. **Abilities** is a compact skills-and-preparation page in place of a formal profile document for now.
 
 Research Interests
 ======
 
-My current research thinking is guided by a simple tension: complex systems need structure, but structure is never innocent. Graphs, schemas, ontologies, prompts, spectra, and other representations can make relations and constraints visible, yet they can also impose wrong locality, hide long-range dependencies, or mix signals that should remain separate.
+My current interests are guided by a simple tension: complex systems need structure, but structure is never neutral. Graphs, schemas, ontologies, prompts, spectra, and other representations can make relations and constraints visible; they can also impose the wrong locality, hide long-range dependencies, or mix signals that should remain separate.
 
-I am therefore interested in diagnostic and mechanistic ways of studying AI systems: how structure shapes learning, what assumptions it introduces, when external signals help, and when they merely decorate a model with nicer vocabulary. I also have a physics-flavored curiosity about computation itself: using physical signals from computational processes as guidance, heuristics, or diagnostic traces, and using computation in return to understand physical processes. In that sense, I am drawn to the two-way traffic between informatics and physics.
+I am interested in diagnostic and mechanistic ways of studying AI systems: how structure shapes learning, what assumptions it introduces, when external signals help, and when they only decorate a model with better vocabulary. This connects my interests in structure-aware AI, graph learning, data systems, knowledge representation, LLM workflows, quantum information, and information-cost-aware computation.
 
-More broadly, I care about AI systems that grow out of real needs, concrete constraints, and diverse use cases rather than only from scale, benchmarks, or fashionable terminology.
+I also care about AI systems that grow out of real needs, concrete constraints, and diverse use cases rather than only from scale, benchmarks, or fashionable terminology.

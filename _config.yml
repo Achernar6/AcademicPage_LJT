@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "About"
+title                    : "Jietong Li"
 title_separator          : "-"
-name                     : &name "Li Jietong"
-description              : &description "Academic profile of Li Jietong, an applicant with industrial AI experience in financial data systems, knowledge graphs, and LLM applications."
+name                     : &name "Jietong Li"
+description              : &description "Academic profile of Jietong Li, a master's student at Keio University Graduate School of Media Design / Q/est Project working across structure-aware AI, graph learning, data systems, knowledge representation, LLM workflows, quantum information, and information-cost-aware computation."
 url                      : "https://achernar6.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/AcademicPage_LJT" # the subpath of your site, e.g. "/blog"
@@ -23,10 +23,10 @@ repository               : "Achernar6/AcademicPage_LJT"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile-placeholder.svg"
-  name             : "Li Jietong"
+  avatar           : "avatar-jietong-li.svg"
+  name             : "Jietong Li"
   pronouns         : # example: "she/her"  
-  bio              : "UESTC Software Engineering<br/>KPMG LightHouse (intern)<br/>ICBC Headquarter / BRDC (full time)"
+  bio              : "Master's student, Keio University Graduate School of Media Design / Q/est Project<br/>Previous experience: ICBC Headquarters / Business R&D Center; KPMG LightHouse"
   location         : "Japan / China"
   employer         :
   uri              : # URL
@@ -125,8 +125,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+  hide                   : true     # change to true to hide the RSS feed in the footer
 
 
 # SEO Related
@@ -149,7 +148,7 @@ og_description           :  # Social media default site image description
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  name                   :
   links: # An array of links to social media profiles
 
 
@@ -246,7 +245,7 @@ defaults:
       author_profile: false
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -262,7 +261,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
+      share: false
       comments: true
   # _publications
   - scope:
@@ -271,7 +270,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -280,7 +279,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
@@ -289,7 +288,7 @@ defaults:
     values:
       layout: talk
       author_profile: false
-      share: true
+      share: false
 
 
 # Sass/SCSS
@@ -307,7 +306,6 @@ timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-  - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
@@ -316,7 +314,6 @@ plugins:
 
 # Mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
