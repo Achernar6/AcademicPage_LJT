@@ -5,33 +5,52 @@ permalink: /experience/
 author_profile: false
 ---
 
-## Keio University Graduate School of Media Design  
-**Master's Student, Q/est Project**  
-2026-present
+<div class="experience-list" markdown="1">
 
-## Industrial and Commercial Bank of China  
-**Data Analyst, Headquarters / Business R&D Center, Beijing**  
-July 2024-October 2025
+<section class="experience-item" markdown="1">
+<div class="experience-item__header">
+  <div>
+    <h2>Keio University Graduate School of Media Design</h2>
+    <p class="experience-role">Master's Student, Q/est Project</p>
+  </div>
+  <p class="experience-item__date">2026-present</p>
+</div>
+</section>
+
+<section class="experience-item" markdown="1">
+<div class="experience-item__header">
+  <div>
+    <h2>Industrial and Commercial Bank of China</h2>
+    <p class="experience-role">Data Analyst, Headquarters / Business R&amp;D Center, Beijing</p>
+  </div>
+  <p class="experience-item__date">July 2024-October 2025</p>
+</div>
 
 Worked on financial data systems and applied AI projects under operational and governance constraints.
 
-### Data operations and analytics
+<p class="experience-section-label">Data operations and analytics</p>
 
 - Supported recurring data operations and analytical outputs for headquarters-level personal finance and mobile banking scenarios.
 - Maintained SQL-based data pipelines, dashboard indicators, segmentation logic, and campaign-analysis outputs.
 - Translated ambiguous business requests into metric definitions, aggregation rules, eligibility windows, and reproducible analytical queries.
 - Handled data-quality checks and urgent pipeline issues under production-facing constraints.
 
-### Banking AI and large-model projects
+<p class="experience-section-label">Banking AI and large-model projects</p>
 
 - Supported schema-aware SQL generation, retrieval-augmented data access, structured complaint analysis, synthetic transaction data collaboration, and LLM-agent financial simulation.
 - Helped design structured intermediate fields, prompt/data templates, and auditable output formats for banking analytics.
 - Contributed to three CNIPA fintech patent submissions by formalizing technical proposals into system-level designs and application materials.
 - Worked only with public or sanitized descriptions on this website; confidential data, internal metrics, and implementation details are omitted.
+</section>
 
-## KPMG LightHouse  
-**Knowledge Graph Development Assistant**  
-January 2023-June 2023
+<section class="experience-item" markdown="1">
+<div class="experience-item__header">
+  <div>
+    <h2>KPMG LightHouse</h2>
+    <p class="experience-role">Knowledge Graph Development Assistant</p>
+  </div>
+  <p class="experience-item__date">January 2023-June 2023</p>
+</div>
 
 Contributed to a financial regulatory compliance knowledge graph for a commercial banking scenario.
 
@@ -40,9 +59,17 @@ Contributed to a financial regulatory compliance knowledge graph for a commercia
 - Experimented with Chinese LLM-assisted label augmentation for ambiguous or low-resource categories, followed by manual review.
 - Supported Chinese NLP workflows, including lexicon customization, entity recognition experiments, and BERT-style classification.
 - Loaded structured entities and relationships into Neo4j and validated graph queries for compliance search and training scenarios.
+</section>
 
-## Earlier Software Project
-
-**ArcaneArchive, undergraduate thesis/project**
+<section class="experience-item" markdown="1">
+<div class="experience-item__header">
+  <div>
+    <h2>Earlier Software Project</h2>
+    <p class="experience-role">ArcaneArchive, undergraduate thesis/project</p>
+  </div>
+</div>
 
 Designed and developed an Android-based niche collection management application involving domain modeling, database schema design, application architecture, UI design, and search/classification functions. This project trained me to translate ambiguous real-world objects into structured representations and working information systems.
+</section>
+
+</div>

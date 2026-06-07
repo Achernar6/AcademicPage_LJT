@@ -1,0 +1,18 @@
+{% include base_path %}
+
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+
+<article class="project-list__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <h3 class="project-list__title" itemprop="headline">
+    {% if post.link %}
+      <a href="{{ post.link }}">{{ title }}</a>
+      <a class="project-list__permalink" href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+    {% else %}
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    {% endif %}
+  </h3>
+
+  {% if post.excerpt %}
+    <p class="project-list__excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+  {% endif %}
+</article>

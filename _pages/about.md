@@ -7,21 +7,32 @@ redirect_from:
   - /about.html
 ---
 
-<aside class="about-profile">
-  <img src="{{ '/images/avatar-jietong-li.svg' | relative_url }}" alt="Jietong Li">
-  <h2>Jietong Li</h2>
-  <p>Master's student, Keio University Graduate School of Media Design / Q/est Project</p>
-  <p>Previous experience: ICBC Headquarters / Business R&amp;D Center; KPMG LightHouse</p>
-</aside>
+<section class="about-hero">
+  <aside class="about-card">
+    <img src="{{ '/images/avatar-jietong-li.svg' | relative_url }}" alt="Jietong Li">
+    <h2>Jietong Li</h2>
+    <p>Keio KMD / Q/est Project</p>
+    <p>B.E. Software Engineering, UESTC, 2024</p>
+    {% if site.author.github %}
+      <p class="about-card__links"><a href="https://github.com/{{ site.author.github }}">GitHub</a></p>
+    {% endif %}
+  </aside>
 
+  <div class="about-intro" markdown="1">
 I graduated from the School of Software Engineering at the University of Electronic Science and Technology of China in 2024. Since then, my projects have ranged across financial knowledge graph and data systems, machine-learning pipelines, recommendation system, and LLM-based workflows.
 
 These experiences are summarized in the pages below.
 
-[Experience]({{ site.baseurl }}/experience/){: .btn .btn--primary }  
-[Industrial Projects]({{ site.baseurl }}/industrial-projects/){: .btn }  
-[Personal Projects]({{ site.baseurl }}/personal-projects/){: .btn }  
+<div class="about-actions" markdown="1">
+[Experience]({{ site.baseurl }}/experience/){: .btn .btn--primary }
+[Industrial Projects]({{ site.baseurl }}/industrial-projects/){: .btn }
+[Personal Projects]({{ site.baseurl }}/personal-projects/){: .btn }
 [Abilities]({{ site.baseurl }}/abilities/){: .btn }
+</div>
+  </div>
+</section>
+
+<section class="research-section" markdown="1">
 
 ## Research Orientation
 
@@ -38,3 +49,5 @@ In the second direction, computation itself becomes the object to be analyze. Th
 These two directions mutually inform each other. When learning systems act on real-world structures, physical and infrastructural constraints often return as signals, bottlenecks, or oracle-like guidance. When computation is studied as a physical process, mathematical tools for representation, uncertainty, and optimization help make its behavior visible and controllable. I am interested in this seam: where structure becomes evidence, where physical or solver-generated signals become computational guidance, and where more information stops being worth its price.
 
 My current direction is therefore diagnostic and interpretation rather than purely performance-driven. I want to understand when structural representations help learning, when they distort the problem, how external signals can guide computation without becoming opaque shortcuts, and how models or computational procedures can be evaluated by information use, stability, cost, and failure modes rather than by a single benchmark number.
+
+</section>
