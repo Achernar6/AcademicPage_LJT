@@ -212,6 +212,48 @@
   margin: 0;
 }
 
+.industry-project {
+  max-width: var(--site-measure);
+  margin: 2.25rem 0 2.75rem;
+}
+
+.industry-project__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.35rem;
+  border-bottom: var(--border-subtle);
+}
+
+.industry-project__title {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: $sans-serif;
+  font-size: 1.08rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.industry-project__location {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.industry-project p {
+  margin: 0 0 var(--space-md);
+  font-size: 0.94rem;
+  line-height: 1.58;
+}
+
+.industry-project p:last-child {
+  margin-bottom: 0;
+}
+
 .experience-list {
   max-width: var(--site-measure);
   border-top: var(--border-subtle);
@@ -315,5 +357,15 @@
   .experience-item__date {
     text-align: left;
     white-space: normal;
+  }
+
+  .industry-project__header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.15rem;
+  }
+
+  .industry-project__location {
+    text-align: right;
   }
 }

@@ -5,14 +5,106 @@ permalink: /industrial-projects/
 author_profile: false
 ---
 
-{% include base_path %}
+<p class="page-lede">Selected industry-facing projects, written as public or sanitized summaries. Confidential datasets, internal metrics, production details, and implementation-specific results are omitted.</p>
 
-<p class="page-lede">Selected industry-facing projects, with public or sanitized descriptions.</p>
+<div class="industry-project">
+  <div class="industry-project__header">
+    <h3 class="industry-project__title">LLM-Powered Agent-Based Retail Market Simulation</h3>
+    <span class="industry-project__location">ICBC BRDC</span>
+  </div>
 
-<div class="project-list">
-{% assign projects = site.portfolio | sort: "order" %}
-{% for post in projects %}
-  {% include project-list-item.html %}
-{% endfor %}
+  <p><strong>Context:</strong> This exploratory prototype studied whether LLM-based agents could complement traditional agent-based models in simulating retail-investor behavior under news shocks. The focus was on controlled scenarios where false news, rumor-like signals, panic, or hype could affect heterogeneous financial-user archetypes.</p>
+
+  <p><strong>Keywords:</strong> LLM agents, agent-based modeling, retail investor behavior, news sentiment, information diffusion, temporal interaction graphs, cascade analysis, community detection, centrality, behavioral evaluation.</p>
+
+  <p><strong>Core problem:</strong> Explore whether heterogeneous LLM agents can simulate how different investor archetypes respond to sentiment shocks, especially false-news-driven panic or hype, and whether the resulting behavioral patterns can be analyzed without treating raw LLM outputs as simulation truth.</p>
+
+  <p><strong>My contribution:</strong> Supported scenario design, behavioral-role abstraction, prompt/data templates, and structured decision-output design. I also proposed a lightweight temporal graph diagnostic layer, representing simulated investors, archetypes, or news exposures through nodes and edges, and used graph-style summaries such as adoption curves, cascade size, community-level clustering, early-adopter centrality, and news-sentiment propagation patterns.</p>
+
+  <p><strong>Research relevance:</strong> This project helped me become familiar with LLM-agent simulation workflows, scenario-controlled prompting, structured output templates, evaluation-oriented summaries, and temporal graph diagnostics for interpreting agent behavior.</p>
 </div>
 
+<div class="industry-project">
+  <div class="industry-project__header">
+    <h3 class="industry-project__title">Financial Regulatory Compliance Knowledge Graph</h3>
+    <span class="industry-project__location">KPMG LightHouse</span>
+  </div>
+
+  <p><strong>Context:</strong> This implementation-focused project transformed fragmented regulatory documents, internal rules, and compliance clauses into a structured knowledge base for compliance search, training, and rule relationship analysis in a commercial banking scenario.</p>
+
+  <p><strong>Keywords:</strong> knowledge graph, ontology engineering, Chinese financial-legal NLP, Neo4j, Cypher, NER, BERT classification, TF-IDF, label-quality control, LLM-assisted annotation.</p>
+
+  <p><strong>Core problem:</strong> Convert heterogeneous regulatory text into auditable entities, relations, and labels, while adapting the labeling strategy to different label frequencies and ambiguity levels.</p>
+
+  <p><strong>My contribution:</strong> Supported ontology refinement, including entity categories, relation definitions, label granularity, and compliance-oriented schema choices. I assisted regulatory text preprocessing, term-frequency and TF-IDF-style vocabulary inspection, labeling, and label-quality checks. The workflow combined manual annotation and review for rare or edge-case labels, ML-assisted approaches for lower-resource categories, and BERT-style classification for more frequent document or passage categories. I also experimented with Chinese LLM-assisted label augmentation for ambiguous categories and helped validate structured entities and relationships in Neo4j.</p>
+
+  <p><strong>Research relevance:</strong> This project made me more familiar with an end-to-end Chinese NLP pipeline, including corpus cleaning, domain lexicon customization, entity recognition, text classification, label-quality control, ontology design, graph loading, and query validation. It also strengthened my interest in schemas and ontologies as practical tools for making constraints explicit.</p>
+</div>
+
+<div class="industry-project">
+  <div class="industry-project__header">
+    <h3 class="industry-project__title">AML Detection for Certificate of Deposit Transactions</h3>
+    <span class="industry-project__location">ICBC BRDC</span>
+  </div>
+
+  <p><strong>Context:</strong> This project supported anti-money-laundering risk detection for certificate of deposit transactions. Early non-graph features derived from blacklist or rule-based screening could over-flag harmless users with frequent but ordinary deposit and withdrawal behavior. The harder signals were often relational and temporal, involving repeated counterparties, short-range indirect relationships, abnormal frequency bursts, and time-windowed behavioral changes. However, the available infrastructure was a governed relational-database environment rather than a dedicated graph database.</p>
+
+  <p><strong>Keywords:</strong> AML, certificate of deposit transactions, temporal features, network-derived features, relational databases, recursive SQL, local graph structure, low-hop neighborhoods, anomaly detection, explainability, constrained data infrastructure.</p>
+
+  <p><strong>Core problem:</strong> Represent suspicious transaction behavior as auditable temporal and local-network features when full graph infrastructure is unavailable and compliance review requires interpretable feature logic.</p>
+
+  <p><strong>My contribution:</strong> Designed and tested temporal, behavioral, and local network-derived feature logic through relational-database workflows. The feature work included transaction-frequency bursts, repeated counterparties, short-range transaction chains, indirect account relationships, time-windowed behavioral shifts, and threshold-sensitive risk summaries. I also supported modeling workflows that combined unsupervised anomaly detection with supervised classification, and helped prepare explainable case summaries for review.</p>
+
+  <p><strong>Research relevance:</strong> This project connected graph-inspired reasoning with constrained data infrastructure. Building graph-style features inside relational tables gave me a more concrete understanding of how graph structure appears locally through neighborhoods, walks, co-counterparty patterns, node/edge-level signals, local aggregation, and temporal changes. It also helped me become familiar with AML feature engineering, explainability requirements, threshold sensitivity, and production-facing data constraints.</p>
+</div>
+
+<div class="industry-project">
+  <div class="industry-project__header">
+    <h3 class="industry-project__title">Privacy-Preserving Synthetic Data Generation for Cross-Industry Marketing</h3>
+    <span class="industry-project__location">ICBC BRDC</span>
+  </div>
+
+  <p><strong>Context:</strong> This project explored synthetic sequential transaction data as a practical alternative to raw-data sharing in a bank-partner marketing collaboration. The intended downstream direction was a privacy-preserving collaboration scenario, such as federated-learning-based coupon targeting with a food-delivery platform partner, but my work focused on synthetic data preparation and validation before downstream model training was completed.</p>
+
+  <p><strong>Keywords:</strong> synthetic data, transaction sequences, privacy-preserving collaboration, TimeGAN-style generation, distributional validation, utility/privacy trade-off, federated-learning scenario, coupon targeting.</p>
+
+  <p><strong>Core problem:</strong> Support cross-industry collaboration where useful transaction patterns are needed for analysis or targeting, but raw sensitive data, personal identifiers, and detailed behavioral records cannot be directly shared.</p>
+
+  <p><strong>My contribution:</strong> Assisted user-level, merchant-level, and transaction-sequence feature preparation, including partner-related transaction labels, demographic segments, customer activity patterns, and temporal indicators suitable for sequence modeling. I helped prepare sequential datasets and configure input pipelines for TimeGAN-style generation, and contributed to validation thinking through distributional similarity checks, utility-oriented summaries, and privacy/governance-aware documentation.</p>
+
+  <p><strong>Research relevance:</strong> This project helped me become familiar with synthetic-data workflows, sequential representation, distributional validation, utility/privacy trade-offs, and governance-aware evaluation. It also clarified the boundary between data-generation work and downstream model-training claims.</p>
+</div>
+
+<div class="industry-project">
+  <div class="industry-project__header">
+    <h3 class="industry-project__title">LLM Data Infrastructure, Schema-Aware SQL Generation, RAG, and Complaint Analysis</h3>
+    <span class="industry-project__location">ICBC BRDC</span>
+  </div>
+
+  <p><strong>Context:</strong> This work focused on practical LLM infrastructure for banking analytics. The goal was not to build a general-purpose chatbot, but to make internal data access and complaint analysis more efficient under schema, governance, and reliability constraints.</p>
+
+  <p><strong>Keywords:</strong> schema-aware SQL generation, RAG, database schema grounding, structured extraction, complaint analysis, banking analytics, prompt/data templates, auditable outputs.</p>
+
+  <p><strong>Core problem:</strong> Ground LLM workflows in database schemas and standardized output formats so that generated SQL and complaint-analysis results are more usable, auditable, and suitable for downstream analytics than free-form model responses.</p>
+
+  <p><strong>My contribution:</strong> Curated and structured schema-aware SQL-generation examples, including database descriptions, query templates, and instruction-style training samples. I helped integrate schema information into a retrieval-augmented workflow so SQL generation could be grounded in correct table and field definitions. For complaint analysis, I designed structured extraction templates that separated emotional expression, candidate cause, evidence span, and standardized output fields. I also contributed technical documentation and proposal writing for internal innovation projects.</p>
+
+  <p><strong>Research relevance:</strong> This project helped me become familiar with schema-grounded LLM pipelines, RAG-style data access, structured output design, evidence-span extraction, and reliability constraints in banking analytics.</p>
+</div>
+
+<div class="industry-project">
+  <div class="industry-project__header">
+    <h3 class="industry-project__title">Cold-Start Financial Product Recommendation for a "What's Your MBTI?" Mobile Bank Campaign</h3>
+    <span class="industry-project__location">ICBC BRDC</span>
+  </div>
+
+  <p><strong>Context:</strong> This project supported a youth-oriented mobile banking campaign that used a shareable "what's your MBTI?" style interaction as a user-engagement and new-user-activation hook. The user-facing interaction could recommend financial products after a playful label input, but the recommendation logic relied mainly on user metadata, available financial/behavioral data, and product attributes, with self-reported MBTI-style labels used only as weak campaign signals.</p>
+
+  <p><strong>Keywords:</strong> cold start, recommender systems, hybrid recommendation, collaborative filtering, content-based recommendation, metadata-based user similarity, segmentation, weak signals, feature engineering, evaluation, user activation.</p>
+
+  <p><strong>Core problem:</strong> Improve recommendation under sparse user behavior, limited investment history, long-tail product constraints, and practical marketing rules, without treating playful campaign labels as validated personality science.</p>
+
+  <p><strong>My contribution:</strong> Supported feature design, segmentation logic, metadata-based user similarity, label-to-product affinity rules, evaluation-oriented data preparation, and analytical summaries. I helped translate campaign labels into coarse behavioral indicators such as risk preference, liquidity preference, novelty seeking, product-complexity tolerance, and likely financial goals, while keeping stronger weight on available metadata and financial-behavioral signals.</p>
+
+  <p><strong>Research relevance:</strong> This project helped me become familiar with recommender-system principles and patterns, including cold-start handling, the limits of pure collaborative filtering under sparse behavior, hybrid recommendation, content/product metadata features, segmentation, weak-signal use, and practical evaluation.</p>
+</div>
