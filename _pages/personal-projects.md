@@ -10,6 +10,26 @@ Personal Projects
 
 These projects are separate from my industrial work. They are informal prototypes, tools, and paused attempts that show recurring technical interests: visualization, personal knowledge systems, sensing, ontology design, and quantum-information-inspired computation.
 
+ArcaneArchive
+------
+
+**Status:** completed undergraduate prototype  
+**Research relevance:** ontology design, domain modeling, local data management
+
+ArcaneArchive was my undergraduate thesis project: an Android-based niche collection-management prototype for subculture fashion. I treated it as a small ontology and database design problem, translating informal community classification practices into item entities, attribute hierarchies, classification rules, and collection-management workflows.
+
+I implemented the prototype with Kotlin, SQLite, and Android Studio, and refined the classification design through small-scale informal feedback from community members.
+
+Classical Algorithms Beyond Classical
+------
+
+**Status:** paused research-style exploration  
+**Research relevance:** quantum-information viewpoints, annealing proxies, algorithm interpretation
+
+[Classical Algorithms Beyond Classical](https://github.com/Achernar6/Classic-Algorithm-Beyond-Classical) is an attempt to reinterpret classic algorithms from a quantum view.
+
+The current bottleneck is choosing an appropriate annealing proxy. I previously explored a QAOA-style version, but QAOA is not a single gradually evolving physical process, and the multi-round convergence behavior was not very satisfying; in some cases it failed to converge at all. The project is now paused at the more interesting question: what kind of proxy is faithful enough to be meaningful, but still lightweight enough to be useful?
+
 Saccharomyces-cerevisiae
 ------
 
@@ -39,23 +59,3 @@ Project Atlas
 Project Atlas is a Logseq-based checker for **exploration-exploitation balance** in long-horizon, open-ended knowledge work. If LiFlow is the human/cognition side, Project Atlas is the project/context side.
 
 The basic idea is to treat personal knowledge work as something that has both local task pressure and long-range research drift. I want a system that can notice whether I am over-exploiting familiar threads, over-exploring without consolidation, or losing the context that made a question meaningful in the first place.
-
-Classical Algorithms Beyond Classical
-------
-
-**Status:** paused research-style exploration  
-**Research relevance:** quantum-information viewpoints, annealing proxies, algorithm interpretation
-
-[Classical Algorithms Beyond Classical](https://github.com/Achernar6/Classic-Algorithm-Beyond-Classical) is an attempt to reinterpret classic algorithms from a quantum view.
-
-The current bottleneck is choosing an appropriate annealing proxy. I previously explored a QAOA-style version, but QAOA is not a single gradually evolving physical process, and the multi-round convergence behavior was not very satisfying; in some cases it failed to converge at all. The project is now paused at the more interesting question: what kind of proxy is faithful enough to be meaningful, but still lightweight enough to be useful?
-
-ArcaneArchive
-------
-
-**Status:** completed undergraduate prototype  
-**Research relevance:** ontology design, domain modeling, local data management
-
-ArcaneArchive was my undergraduate thesis project: an Android-based niche collection-management prototype for subculture fashion. I treated it as a small ontology and database design problem, translating informal community classification practices into item entities, attribute hierarchies, classification rules, and collection-management workflows.
-
-I implemented the prototype with Kotlin, SQLite, and Android Studio, and refined the classification design through small-scale informal feedback from community members.
