@@ -5,9 +5,6 @@ permalink: /personal-projects/
 author_profile: false
 ---
 
-Personal Projects
-======
-
 These projects are separate from my industrial work. They are informal prototypes, tools, and paused attempts that show recurring technical interests: visualization, personal knowledge systems, sensing, ontology design, and quantum-information-inspired computation.
 
 ArcaneArchive
@@ -20,13 +17,13 @@ ArcaneArchive was my undergraduate thesis project: an Android-based niche collec
 
 I implemented the prototype with Kotlin, SQLite, and Android Studio, and refined the classification design through small-scale informal feedback from community members.
 
-Classical Algorithms Beyond Classical
+Classic Algorithm Beyond Classical
 ------
 
 **Status:** paused research-style exploration  
 **Research relevance:** quantum-information viewpoints, annealing proxies, algorithm interpretation
 
-[Classical Algorithms Beyond Classical](https://github.com/Achernar6/Classic-Algorithm-Beyond-Classical) is an attempt to reinterpret classic algorithms from a quantum view.
+[Classic Algorithm Beyond Classical](https://github.com/Achernar6/Classic-Algorithm-Beyond-Classical) is an attempt to reinterpret classic algorithms from a quantum view.
 
 The current bottleneck is choosing an appropriate annealing proxy. I previously explored a QAOA-style version, but QAOA is not a single gradually evolving physical process, and the multi-round convergence behavior was not very satisfying; in some cases it failed to converge at all. The project is now paused at the more interesting question: what kind of proxy is faithful enough to be meaningful, but still lightweight enough to be useful?
 
