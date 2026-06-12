@@ -11,7 +11,6 @@ redirect_from:
   <aside class="about-card">
     <img src="{{ '/images/avatar-jietong-li.svg' | relative_url }}" alt="Jietong Li">
     <h2>Jietong Li</h2>
-    <p>Keio KMD / Q/est Project</p>
     <p>B.E. Software Engineering, UESTC, 2024</p>
     {% if site.author.github %}
       <p class="about-card__links"><a href="https://github.com/{{ site.author.github }}">GitHub</a></p>
